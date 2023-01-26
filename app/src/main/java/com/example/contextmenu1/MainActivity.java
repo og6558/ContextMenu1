@@ -12,9 +12,24 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity {
+    /**
+     * The Btn 1.
+     */
     Button btn1;
-    EditText et1,et2;
+    /**
+     * The Et 1.
+     */
+    EditText et1, /**
+     * The Et 2.
+     */
+    et2;
+    /**
+     * The Tg.
+     */
     ToggleButton tg;
 
 
@@ -47,6 +62,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * Dorel 6969 boolean.
+     *
+     * @param doreli the doreli
+     * @return the boolean
+     */
     public static boolean dorel6969(String doreli){
         if(doreli.equals("") || doreli.equals(".") || doreli.equals("-.") || doreli.equals("-")){
             return(false);
@@ -56,6 +77,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Dorel 1.
+     *
+     * @param view the view
+     */
     public void dorel1(View view) {
         String st1 = et1.getText().toString();
         String st2 = et2.getText().toString();

@@ -13,14 +13,41 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+/**
+ * The type Second activity.
+ */
 public class SecondActivity extends AppCompatActivity implements  View.OnCreateContextMenuListener {
+    /**
+     * The Tv 7.
+     */
     TextView tv7;
+    /**
+     * The Lisv 3.
+     */
     ListView lisv3;
+    /**
+     * The List 1.
+     */
     String[] list1 = new String[20];
+    /**
+     * The Arr 2.
+     */
     Double[] arr2 = new Double[20];
-    double first, num1;
+    /**
+     * The First.
+     */
+    double first, /**
+     * The Num 1.
+     */
+    num1;
+    /**
+     * The Nom 1.
+     */
     boolean nom1;
 
+    /**
+     * The Res.
+     */
     int res;
 
     @Override
@@ -76,6 +103,9 @@ public class SecondActivity extends AppCompatActivity implements  View.OnCreateC
     }
 
 
+    /**
+     * Mathemtical.
+     */
     public void Mathemtical() {
         for (int i = 0; i < 20; i++) {
             arr2[i] = first;
@@ -90,6 +120,9 @@ public class SecondActivity extends AppCompatActivity implements  View.OnCreateC
         }
     }
 
+    /**
+     * Geometrical.
+     */
     public void Geometrical() {
         for (int ii = 0; ii < 20; ii++) {
             arr2[ii] = first;
@@ -104,6 +137,12 @@ public class SecondActivity extends AppCompatActivity implements  View.OnCreateC
         }
     }
 
+    /**
+     * Dorelkrief int.
+     *
+     * @param lol the lol
+     * @return the int
+     */
     public int dorelkrief(String lol) {
         int q = lol.indexOf(".");
         int E = lol.indexOf("E");
